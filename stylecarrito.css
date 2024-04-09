@@ -52,7 +52,7 @@
     color: white;
 }
 
-
+/*ESTILO CARRITO*/
 .producto-contenedor {
     width: 30vw;
     height: 120px;
@@ -159,4 +159,10 @@
     color: white;
     cursor: pointer;
     margin-left: 8px;
+}
+
+/*ESTILO MODAL*/
+
+.modal-header{
+    background-color:#cc3d3d;
 }
