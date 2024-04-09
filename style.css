@@ -1,5 +1,4 @@
 
-
 .logo {
     transform: translatey(-15px);
     width: 50px;
@@ -53,3 +52,145 @@
     background-color: rgba(0, 0, 0, 0.548);
     color: white;
 }
+
+.iconos{
+    display: flex; 
+
+}
+.icono-home{
+    font-size: 45px;
+    margin-left: 1100px;
+    margin-right: 10px; 
+    color: white;
+    cursor: pointer;
+}
+
+.icono-search{
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+
+.icono-shoppingcart{
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.icono-ayuda{
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+    margin-left: 1800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-logo-login{
+    
+    padding: 10px;
+    width: 25rem;
+    background-color: rgb(38, 38, 44);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.137);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+/* Comienzo div Login */
+.login-container {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #cc3d3d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+}
+
+.login-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h3 {
+    text-align: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1c0707;
+}
+
+.login-form input {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #cc3d3d;
+    border-radius: 3px;
+}
+
+.login-form button {
+    text-align: center;
+    padding: 10px;
+    background-color: #1c0707;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    text-align: center;
+    background-color: #0056b3;
+}
+
+/* Fin div Login */
+
+/* Div carrusel convenio*/
+.carrusel-convenio {
+    margin-left:auto;
+    margin-right: auto; 
+    height: 150px; 
+    width: 150px; 
+    margin-bottom:20px; 
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* Div link convenio */
+.link-convenio {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.imagen-promocion {
+    text-align: center; /* Centra la imagen horizontalmente */
+}
+
+#contenedor-imagen-promocion {
+    max-width: 100%; /* Establece el ancho máximo del contenedor de la imagen */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    cursor: pointer;
+}
+
+#contenedor-imagen-promocion img {
+    max-width: 95%; /* La imagen no superará el ancho del contenedor */
+    height: auto; /* Ajusta automáticamente la altura de la imagen */
+}
+
+.card {
+    width: 100%; /* Hace que la tarjeta ocupe todo el ancho del contenedor */
+
+}
+
+.card img {
+    max-width: 100%; /* La imagen ocupará todo el ancho disponible dentro de su contenedor */
+    height: 100%; /* Ajusta automáticamente la altura de la imagen */
+} 
