@@ -5,27 +5,30 @@
     height: 50px;
 }
 
+
 .card {
-    padding: 10px;
-    width: 25rem;
-    background-color: rgb(38, 38, 44);
+    background-color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.137);
-    width: 2rem;
-    margin-bottom: 1rem;
+    margin: 0;
     text-align: center;
     align-content: center;
 }
 
-.body {
-
-    background-color: rgb(38, 38, 44);
-
+.contenido-nosotros{
+    max-width: 40rem;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
 }
 
+.contenido-nosotros h1{
+    font-family: fantasy;
+}
 .card-text {
     color: white;
-    
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
 
 .card-title {
@@ -33,7 +36,21 @@
     font-weight: bold;
 }
 
+.menu{
+    background-image: url(/imagenes/madera.webp);
+    text-align: center;
+    align-content: center;
+    padding: 2rem;
+    color: beige;
+    font-family: fantasy;
+}
 
+.contenido-nosotros{
+    background-color: beige;
+}
+.menu h1{
+    margin-bottom: 3rem;
+}
 .card:hover {
     
     background-color: rgba(0, 0, 0, 0.548);
@@ -42,25 +59,23 @@
 }
 
 .navbar-text {
-    font-size: large;
-    font-weight: bold;
+    font-family: fantasy;
 }
 
 .navbar-text:hover{
     
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.548);
+    transform: scale(1.1);
     color: white;
 }
 .icono-home{
-    font-size: 45px; 
+    font-size: 2rem; 
     margin-right: 1rem;
     color: white;
     cursor: pointer;
 }
 
 .icono-search{
-    font-size: 45px;
+    font-size: 2rem;
     margin-right: 1rem;
 
     color: white;
@@ -68,14 +83,14 @@
 }
 
 .icono-shoppingcart{
-    font-size: 45px;
+    font-size:  2rem;
     margin-right: 1rem;
     color: white;
     cursor: pointer;
 }
 
 .icono-ayuda{
-    font-size: 45px;
+    font-size:  2rem;
     color: white;
     cursor: pointer;
     margin-left: 1800px;

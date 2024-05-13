@@ -44,3 +44,32 @@ var navbar = document.querySelector('.header');
 </div>
  </div>
 </nav>`;
+
+
+fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
+.then(response => response.json())
+.then(data => {
+
+    // ver como viene la data desde la api en la consola del navegador 
+    console.log(data.categories);
+
+    //obtener el id de html ( div container)
+    var container = document.getElementById("container");
+
+    for (let i = 0; i < data.categories.length; i++ ){
+        var category = data.categories[i];
+
+        const div = document.createElement("div");
+        const conte = document.createElement("div");
+        div.classList.add("card");
+        div.classList.add("img-fluid");
+        div.innerHTML = `
+              <img class="card-img-top" src="${category.strCategoryThumb}" alt="Card">
+              <div class="card-img-overlay">
+                <h4 class="card-title">${category.strCategory}</h4>
+                <p class="card-text">${category.strCategoryDescription}</p>
+              </div>`;
+        conte.appendChild(div);
+        container.appendChild(conte);
+    }
+})
