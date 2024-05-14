@@ -22,16 +22,21 @@
                 <form class="registro-form">
                     <h3>Registro usuario</h3>
                     <p>Nombre:</p>
-                    <input type="text" placeholder="Ej: Felipe Alfaro" required>
+                    <input id="nombre" type="text" placeholder="Ej: Felipe Alfaro">
+                    <span id="mensaje1" class="span_registro"></span>
                     <p>Correo electrónico:</p>
-                    <input type="text" placeholder="Ej: example@example.com" required>
+                    <input id="correo" type="text" placeholder="Ej: example@example.com">
+                    <span id="mensaje2" class="span_registro"></span>
                     <p>Contraseña:</p>
-                    <input type="password"  placeholder="••••••••">
+                    <input id="contraseña" type="password"  placeholder="••••••••">
+                    <span id="mensaje3" class="span_registro"></span>
                     <p>Verificar contraseña:</p>
-                    <input type="password" placeholder="••••••••" required>
+                    <input id="vcontraseña" type="password" placeholder="••••••••">
+                    <span id="mensaje4" class="span_registro"></span>
                     Numero telefónico:
-                    <input type="text" placeholder="Ej: 912345678" required>
-                    <button type="submit">Crear cuenta</button>
+                    <input id="telefono" type="text" placeholder="Ej: 912345678">
+                    <span id="mensaje5" class="span_registro"></span>
+                    <button type="button" onclick="validarReg()">Crear cuenta</button>
                 </form>
             </div>
     

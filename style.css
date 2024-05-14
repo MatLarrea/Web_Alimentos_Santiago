@@ -145,6 +145,12 @@
     background-color: #0056b3;
 }
 
+.span_ingreso{
+    color: #cc3d3d; /* Hacemos el texto transparente para que el fondo sea visible */
+    background: white; /* Color de fondo completo */
+    border-radius: 4px;
+}
+
 /* Fin div Login */
 
 /* Div carrusel convenio*/
@@ -237,6 +243,12 @@
 .registro-form button:hover {
 
     background-color: #0056b3;
+}
+
+.span_registro{
+    color: #cc3d3d; /* Hacemos el texto transparente para que el fondo sea visible */
+    background: white; /* Color de fondo completo */
+    border-radius: 4px;
 }
 
 /*ESTILO CARRITO*/

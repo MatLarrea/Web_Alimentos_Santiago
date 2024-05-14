@@ -27,9 +27,11 @@
         <div class="login-container">
             <form class="login-form">
                 <h3>Ingresa tu usuario</h3>
-                <input type="text" placeholder="Correo Electronico" required>
-                <input type="password" placeholder="Contraseña" required>
-                <button type="submit">Iniciar Sesión</button>
+                <input id="correo" type="text" placeholder="Correo Electronico">
+                <span id="mensaje1" class="span_ingreso"></span> <br>
+                <input id="contraseña" type="password" placeholder="Contraseña">
+                <span id="mensaje2" class="span_ingreso"></span><br>
+                <button type="button" onclick="validarIngreso()">Iniciar Sesión</button>
             </form>
         </div>
         <!--Div Registro --> 
