@@ -167,6 +167,12 @@
     background-color: #0056b3;
 }
 
+.span_ingreso{
+    color: #cc3d3d; /* Hacemos el texto transparente para que el fondo sea visible */
+    background: white; /* Color de fondo completo */
+    border-radius: 4px;
+}
+
 /* Fin div Login */
 
 /* Div carrusel convenio*/
@@ -259,6 +265,12 @@
 .registro-form button:hover {
 
     background-color: #0056b3;
+}
+
+.span_registro{
+    color: #cc3d3d; /* Hacemos el texto transparente para que el fondo sea visible */
+    background: white; /* Color de fondo completo */
+    border-radius: 4px;
 }
 
 /*ESTILO CARRITO*/
@@ -360,5 +372,53 @@
         min-height: 16rem;
     }
 
-    
+  
 }
+
+#map {
+    height: 500px;
+    width: 100%;
+}   
+
+.registro-contenedor{
+    border: 3px black solid;
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    flex-direction: column; /* Cambia la dirección del contenedor flex a columna */
+    display: flex;
+    text-align: center;
+    background-color: #cc3d3d;
+    padding: 20px;
+}
+
+.registro-contenedor h4{
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+.registro-contenedor button {
+    padding: 10px;
+    background-color: #1c0707;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    display: inline-block;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registro-contenedor button:hover {
+    text-align: center;
+    background-color: #0056b3;
+}
+

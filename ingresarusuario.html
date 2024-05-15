@@ -27,12 +27,20 @@
         <div class="login-container">
             <form class="login-form">
                 <h3>Ingresa tu usuario</h3>
-                <input type="text" placeholder="Correo Electronico" required>
-                <input type="password" placeholder="Contraseña" required>
-                <button type="submit">Iniciar Sesión</button>
+                <input id="correo" type="text" placeholder="Correo Electronico">
+                <span id="mensaje1" class="span_ingreso"></span> <br>
+                <input id="contraseña" type="password" placeholder="Contraseña">
+                <span id="mensaje2" class="span_ingreso"></span><br>
+                <button type="button" onclick="validarIngreso()">Iniciar Sesión</button>
             </form>
         </div>
-       
+        <!--Div Registro --> 
+        <div class="registro-contenedor">
+            <h4>¿NO ESTAS REGISTRADO?</h4>
+                <button type="button" onclick="window.location.href='registro.html';">
+                    Registrate aquí
+                </button>
+        </div>
         <!--Div carrusel convenios login --> 
         <div class="carrusel-convenio">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -66,6 +74,6 @@
 
         </div>
 
-<script src="/index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
