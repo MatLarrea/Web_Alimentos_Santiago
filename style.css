@@ -15,7 +15,7 @@
 }
 
 .contenido-nosotros{
-    max-width: 40rem;
+    max-width: 400px;
     padding: 2rem;
     margin: 2rem;
     text-align: center;
@@ -375,16 +375,11 @@
   
 }
 
-#map {
-    height: 500px;
-    width: 100%;
-}   
+
 
 .registro-contenedor{
     border: 3px black solid;
-    width: 500px; 
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%; 
     margin-top: 1%;
     flex-direction: column; /* Cambia la dirección del contenedor flex a columna */
     display: flex;
@@ -396,8 +391,6 @@
 .registro-contenedor h4{
     text-align: center;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 10px;
 
 }
@@ -412,7 +405,6 @@
     transition: background-color 0.3s;
     margin-top: 10px;
     display: inline-block;
-    max-width: 150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -422,3 +414,20 @@
     background-color: #0056b3;
 }
 
+#map{
+    border-radius: 5rem;
+    border-style: ridge;
+    border-width: 1rem;
+    border-color: bisque;
+    height: 40rem;
+    width: 100%; 
+}
+
+.texto-mapa{
+    color: beige;
+    font-size: 2rem;
+}
+
+.mapa{
+    background-color: rgb(32, 32, 32);
+}
