@@ -5,27 +5,31 @@
     height: 50px;
 }
 
+
 .card {
-    padding: 10px;
-    width: 25rem;
-    background-color: rgb(38, 38, 44);
+    background-color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.137);
-    width: 2rem;
-    margin-bottom: 1rem;
+    margin: 0;
     text-align: center;
     align-content: center;
 }
 
-.body {
+.contenido-nosotros{
+    max-width: 40rem;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
 
-    background-color: rgb(38, 38, 44);
-
+.contenido-nosotros h1{
+    font-family: fantasy;
 }
 
 .card-text {
     color: white;
-    
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
 }
 
 .card-title {
@@ -33,7 +37,28 @@
     font-weight: bold;
 }
 
+.menu{
+    background-image: url(/imagenes/madera.webp);
+    text-align: center;
+    align-content: center;
+    padding: 2rem;
+    color: beige;
+    font-family: fantasy;
+}
 
+.texto_cat{
+    color: rgb(0, 220, 224);
+}
+
+.titulo_cat{
+    color: rgb(0, 220, 224);;
+}
+.contenido-nosotros{
+    background-color: beige;
+}
+.menu h1{
+    margin-bottom: 3rem;
+}
 .card:hover {
     
     background-color: rgba(0, 0, 0, 0.548);
@@ -42,25 +67,23 @@
 }
 
 .navbar-text {
-    font-size: large;
-    font-weight: bold;
+    font-family: fantasy;
 }
 
 .navbar-text:hover{
     
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.548);
+    transform: scale(1.1);
     color: white;
 }
 .icono-home{
-    font-size: 45px; 
+    font-size: 2rem; 
     margin-right: 1rem;
     color: white;
     cursor: pointer;
 }
 
 .icono-search{
-    font-size: 45px;
+    font-size: 2rem;
     margin-right: 1rem;
 
     color: white;
@@ -68,14 +91,14 @@
 }
 
 .icono-shoppingcart{
-    font-size: 45px;
+    font-size:  2rem;
     margin-right: 1rem;
     color: white;
     cursor: pointer;
 }
 
 .icono-ayuda{
-    font-size: 45px;
+    font-size:  2rem;
     color: white;
     cursor: pointer;
     margin-left: 1800px;
@@ -353,16 +376,11 @@
   
 }
 
-#map {
-    height: 500px;
-    width: 100%;
-}   
+
 
 .registro-contenedor{
     border: 3px black solid;
-    width: 500px; 
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%; 
     margin-top: 1%;
     flex-direction: column; /* Cambia la dirección del contenedor flex a columna */
     display: flex;
@@ -374,8 +392,6 @@
 .registro-contenedor h4{
     text-align: center;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 10px;
 
 }
@@ -390,7 +406,6 @@
     transition: background-color 0.3s;
     margin-top: 10px;
     display: inline-block;
-    max-width: 150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -400,3 +415,20 @@
     background-color: #0056b3;
 }
 
+#map{
+    border-radius: 5rem;
+    border-style: ridge;
+    border-width: 1rem;
+    border-color: bisque;
+    height: 40rem;
+    width: 100%; 
+}
+
+.texto-mapa{
+    color: beige;
+    font-size: 2rem;
+}
+
+.mapa{
+    background-color: rgb(32, 32, 32);
+}
