@@ -66,8 +66,8 @@ fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
         div.innerHTML = `
               <img class="card-img-top" src="${category.strCategoryThumb}" alt="Card">
               <div class="card-img-overlay">
-                <h4 class="card-title">${category.strCategory}</h4>
-                <p class="card-text">${category.strCategoryDescription}</p>
+                <h4 class="card-title titulo_cat">${category.strCategory}</h4>
+                <p class="card-text texto_cat">${category.strCategoryDescription}</p>
               </div>`;
         conte.appendChild(div);
         container.appendChild(conte);

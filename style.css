@@ -45,6 +45,13 @@
     font-family: fantasy;
 }
 
+.texto_cat{
+    color: rgb(0, 220, 224);
+}
+
+.titulo_cat{
+    color: rgb(0, 220, 224);;
+}
 .contenido-nosotros{
     background-color: beige;
 }
