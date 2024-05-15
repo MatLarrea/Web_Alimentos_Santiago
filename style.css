@@ -15,7 +15,7 @@
 }
 
 .contenido-nosotros{
-    max-width: 400px;
+    max-width: 40rem;
     padding: 2rem;
     margin: 2rem;
     text-align: center;
@@ -24,6 +24,7 @@
 .contenido-nosotros h1{
     font-family: fantasy;
 }
+
 .card-text {
     color: white;
     white-space: nowrap;
